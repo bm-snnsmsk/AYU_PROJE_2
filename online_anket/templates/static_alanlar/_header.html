@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Anket uygulaması, seçim, interview, tahmin, ">
+    <meta name="description" content="Online anket uygulaması">
+    <meta name="author" content="Sinan Şimşek">
+
+    <title>Online Anket Uygulaması</title>
+
+    <link rel="icon" href="{% static 'img/interview.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/my_style.css' %}">
+    <script src="{% static 'js/sweetalert2.all.min.js' %}"></script>
+</head>
+<body>
+
+    {% include "static_alanlar/_navbar.html" %}
