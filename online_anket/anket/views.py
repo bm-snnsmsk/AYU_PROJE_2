@@ -5,6 +5,9 @@ from django.shortcuts import render
 def index(request) :
     return render(request, 'anket/index.html')
 
+def anketler(request) :
+    return render(request, 'anket/anketler.html')
+
 def hakkimizda(request) :
     return render(request, 'anket/hakkimizda.html')
 

@@ -19,6 +19,15 @@
             <a class="nav-link active" aria-current="page" href="/">Ana Sayfa</a>
           </li>
           <li 
+            {% if 'anketler' in request.path %}
+                class = 'nav-item active'
+            {% else %}
+                class = 'nav-item'
+            {% endif %}
+            >
+            <a class="nav-link" href="{% url 'anketler' %}">Anketler</a>
+          </li>
+          <li 
             {% if 'hakkimizda' in request.path %}
                 class = 'nav-item active'
             {% else %}
