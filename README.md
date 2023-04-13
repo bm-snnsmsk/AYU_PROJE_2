@@ -5,4 +5,4 @@
 - Admin Bilgileri
 - Kullanıcı Adı  : admin
 - E-posta Adresi : 
-- Parola         : 111        (Test etme aşamsında tekrar tekrar uzun şifre girme derdine düşmemek için basit parola seçildi)
+- Parola         : 111      (Test etme aşamasında tekrar tekrar uzun şifre girme zahmetine girmemek için basit parola seçildi)
